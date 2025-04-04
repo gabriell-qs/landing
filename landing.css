@@ -90,7 +90,7 @@ table{
     font-family: Arial, sans-serif;
     position: relative;
     z-index: 1;
-    left: 50%;
+    margin-left: 500px;
 }
 .barra{
     background-color: aliceblue;
