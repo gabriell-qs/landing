@@ -462,3 +462,15 @@ footer{
 #des{
     margin-left: 20px;
 }
+.carro{
+    height: 1200px;
+    width: 15%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+    float: flex;
+}
