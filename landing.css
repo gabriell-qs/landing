@@ -1,0 +1,464 @@
+*{margin: 0;
+
+    padding: 0;
+    
+    box-sizing: border-box;
+    
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, rgb(212, 0, 255),rgb(140, 0, 255),rgb(177, 27, 119));
+    background-size: 500% 100%;
+    animation: anima 4s infinite linear alternate;
+
+}
+    
+    @keyframes anima{
+        0%{
+            background-position-x: 0% ;
+        }
+        100%{
+            background-position-x: 100% ;
+        }
+    
+    }
+.minhamarca{
+    font-size: 35px;
+    text-decoration: none; 
+    
+}
+.botoesmarca{
+    width: 120px;
+    height: 30px;
+    color: blueviolet;
+    border-radius: 5px; 
+    border: solid;
+
+}
+#cor1{
+    background-color: blueviolet;
+    color: aliceblue;
+    border: solid blueviolet;
+}
+header{
+    background-color: rgb(255, 255, 255);
+    height: 55px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+
+}
+table{
+    width: 100%;
+    }
+    td,th{
+        text-align: center;
+        font-size: large;
+        width: 40px;
+        color: rgb(92, 0, 196);
+    }
+.sites{
+    text-decoration: none;
+    color: rgb(92, 0, 196);
+}
+.painel{
+    background-color: rgb(255, 255, 255);
+    width:87%;
+    height: 700px ;
+    align-items: center;
+    border-radius: 20px;
+    justify-items: center;
+    position: absolute;
+    top: 800px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    font-family: Arial, sans-serif;
+    z-index: 4;
+}
+.espaço{
+    height: 1200px;
+    width: 70%;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+}
+.barra{
+    background-color: aliceblue;
+    width: 100%;
+    height: 1350px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    
+    font-family: 'Pacifico', cursive;
+    z-index: 1;
+    
+}
+.logos{
+    color:rgba(182, 34, 145, 0.726);
+}
+.b{width: 50px;
+    height: 50px;
+    
+}
+tr{
+    color: blueviolet;
+}
+.grande{
+    font-size: 50px;
+}
+.pesquisa{
+    width: 500px;
+    height: 60px;
+    float: left;
+    border-radius: 10px;
+    border: solid  rgb(255, 255, 255);
+}
+.botao{
+    margin-left: 10px ;
+    width: 160px;
+    height: 62px;
+    border-radius: 10px;
+    background-color: rgb(107, 24, 216)
+    ;
+    border: solid  rgb(107, 24, 216);
+    color: white;
+}
+.meio{
+
+    width: 70%;
+    color: rgb(0, 0, 0);
+}
+.fotos{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    background-color: rgb(122, 43, 226);
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+    .noticia{
+    background-color:rgb(255, 255, 255);
+    padding: 10px;
+    width: 200px;
+    float: left;
+    color: black;
+    margin: 60px;
+    height: 100px;
+    }
+.meio2  { width: 100%;
+color: rgb(0, 0, 0);
+}
+#f{
+    width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 200px;}
+.quadro{
+    height: 1200px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+
+
+}
+.cns{
+    background-color: rgb(255, 255, 255);
+    width: 500px ;
+    height: 500px;
+    float: left;
+    margin: 70px;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    margin-left: 110px;
+    
+    
+}
+#cor2{
+    border-radius: 500px;
+    background: linear-gradient(to right, rgb(212, 0, 255),rgb(140, 0, 255),rgb(177, 27, 119));
+    background-size: 500% 100%;
+    animation: anima 4s infinite linear alternate;
+    width: 500px ;
+    float: right;
+    margin-left: 0px;
+}
+.s{
+    width: 210px;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    border-radius: 10px;
+    float: left;
+    overflow: hidden;
+    
+}
+
+
+.espaçinho{
+    width: 100%;
+    height: 40px;
+    overflow: hidden;
+}
+#ss{
+width: 35%;
+height: 40px;
+background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+#sss{
+    width: 65%;
+    float: none;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+#ssss{
+    width: 95%;
+    float: none;
+    height: 120px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.roda{
+    width: 600px;
+height: 600px;
+background-color: rgb(92, 0, 196);
+z-index: 1;
+border-radius: 400px ;
+position: absolute;
+top: 400px;
+}
+#roda2{
+right: 0;
+top: 0;
+}
+#roda3{
+    right: 0;
+    top:800px;
+    }
+.letrasclaras{
+    color: rgb(41, 40, 40);
+    font-family:Arial, Helvetica, sans-serif
+}
+.heart {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(252, 91, 126);
+    transform: rotate(-45deg);
+    margin: 35px auto;
+    z-index: 2;
+    margin-left: 90px;
+    
+}
+
+.heart::before,
+.heart::after {
+    
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(252, 91, 126);
+    border-radius: 50%;
+    z-index: 2;
+}
+
+.heart::before {
+    top: -25px;
+    left: 0;
+}
+
+.heart::after {
+    left: 25px;
+    top: 0;
+}
+.frente{
+    position: absolute;
+    z-index: 4;
+    font-size: 50px;
+    left: 0;
+    margin-left: 300px;
+    top: 1090px;
+}
+.star {
+    
+    margin-left: 80px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 77, 225);
+    clip-path: polygon(
+        50% 0%, 61% 35%, 98% 35%, 
+        68% 57%, 79% 91%, 50% 70%, 
+        21% 91%, 32% 57%, 2% 35%, 
+        39% 35%
+    );
+    
+}
+#star{
+    margin-left: 650px;
+    top: 1090px;}
+
+    .diamond {
+        width: 80px;
+        height: 80px;
+        background-color: rgb(139, 61, 241);
+        clip-path: polygon(
+            50% 0%, 100% 35%, 80% 100%, 
+            20% 100%, 0% 35%
+        );
+        margin-left: 90px;
+
+    }
+    #diamond{
+        margin-left: 950px;
+        top: 1090px;}
+
+.esquerda{
+    width: 35%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-left: 60px;
+    align-items: start;
+    justify-content: start;
+    text-align: start;
+    color: rgb(31, 31, 31);
+    
+    
+    }
+    .direito{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    float: right;
+    
+
+    }
+.bo{
+    width: 200px ;
+    height: 50px ;
+    background-color: blueviolet;
+    border: solid blueviolet;
+    border-radius: 10px;
+    color: beige;
+}
+#bo{
+    width: 270px;
+    background-color: rgb(92, 0, 196); ;
+    border: solid  rgb(92, 0, 196);;
+}
+.container{
+    display: flex;
+    overflow-x: scroll ;
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: x mandatory ;
+    scroll-padding: 24px;
+    border-radius: 8px;
+    gap: 12px;
+    margin: 2rem auto;
+    overflow: hidden;
+
+}
+.container .item{
+    flex: 0 0 100%;
+    padding: 24px;
+    border-radius: 8px;
+    scroll-snap-align: start;
+    cursor: grabbing;
+    user-select: none;  /* Evita a seleção do texto */
+}
+.a{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+}
+#p{
+    color: rgb(92, 0, 196);
+    font-size: 50px; /* Ajusta o tamanho */
+}
+.espaç{
+    width: 100%;
+    height: 790px;
+
+    }
+.linha{
+    width: 100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(83, 1, 160);
+}
+.z{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(0, 247, 255);
+    border: solid rgb(0, 247, 255);
+    border-radius: 8px;
+    color: white;
+}
+.foot{
+    width: 150px;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0);
+    border: solid rgb(161, 161, 161);
+    border-radius: 8px;
+    color:  rgb(161, 161, 161);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+.foot2{
+    width: 300px;
+    height: 50px;
+    background-color: rgb(255, 0, 221);
+    border: solid  rgb(255, 0, 221);
+    border-radius: 8px;
+    color:  rgb(161, 161, 161);;
+}
+.w{
+    width: 250px;
+    color: rgb(161, 161, 161);
+
+}
+.descriçao{
+    float: left;
+    width: 200px;
+    background-color: aliceblue;
+    height: 340px;
+    margin-left: 70px;
+    
+}
+footer{
+    background-color: rgb(17, 17, 17);
+    height: 800px;
+    width: 100%;
+
+    
+}
+#des{
+    margin-left: 20px;
+}
