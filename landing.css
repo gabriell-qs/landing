@@ -93,6 +93,8 @@ table{
     font-family: Arial, sans-serif;
     position: relative;
     z-index: 1;
+    overflow: hidden;
+
 }
 .barra{
     background-color: rgb(255, 255, 255);
@@ -121,12 +123,14 @@ tr{
     font-size: 45px;
 }
 .pesquisa{
-    display: flex;
     width: 500px;
     height: 60px;
     float: left;
     border-radius: 10px;
     border: solid  rgb(255, 255, 255);
+    left: 50%;
+    right: 50%;
+    
 }
 .botao{
     margin-left: 10px ;
@@ -168,6 +172,8 @@ tr{
 
     height: 100px;
     margin-left:12% ;
+    margin-right: 2%;
+
     }
     .pato{
         align-items: center;
@@ -535,4 +541,7 @@ margin-left: 670px;
     background-color: rgba(152, 48, 255, 0.712);
     margin-top: 70px;
     border-radius: 20px;
+}
+#ajuste{
+    margin-left: 70px ;
 }
